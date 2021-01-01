@@ -1,17 +1,17 @@
-from tkinter import *
+import tkinter as tk
 
-root = Tk()
-root.geometry('300x200')
-root.columnconfigure(0, weight=1)   # Set weight to row and 
-root.rowconfigure(0, weight=1)      # column where the widget is
+def on_enter(e):
+    myButton['background'] = 'green'
 
-container = Frame(root, bg='tan')   # bg color to show extent
-container.grid(row=0, column=0)     # Grid cell with weight
+def on_leave(e):
+    myButton['background'] = 'SystemButtonFace'
 
-# A couple of widgets to illustrate the principle.
-b1 = Button(container, text='First', width=10)
-b1.grid(pady=10, padx=20)
-b2 = Button(container, text='second', width=10)
-b2.grid(pady=(0,10), padx=20)
+root = tk.Tk()
+myButton = tk.Button(root,text="Click Me")
+myButton.grid()
+
+
+myButton.bind("<Enter>", on_enter)
+myButton.bind("<Leave>", on_leave)
 
 root.mainloop()
