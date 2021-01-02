@@ -1,17 +1,17 @@
-import tkinter as tk
+from tkinter import *
+class App(Frame):
+    def __init__(self, master):
+        Frame.__init__(self, master)
+        self.grid()
+        self.a()
 
-def on_enter(e):
-    myButton['background'] = 'green'
+    def a(self):
+        self.call_button = Button(self, text = "Call", command=self.b)
+        self.call_button.grid(row=5, column=5) # This is fixing your issue
 
-def on_leave(e):
-    myButton['background'] = 'SystemButtonFace'
+    def b(self):
+        self.call_button.destroy()
 
-root = tk.Tk()
-myButton = tk.Button(root,text="Click Me")
-myButton.grid()
-
-
-myButton.bind("<Enter>", on_enter)
-myButton.bind("<Leave>", on_leave)
-
-root.mainloop()
+root = Tk()
+app = App(master=root)
+app.mainloop()
