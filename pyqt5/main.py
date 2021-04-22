@@ -21,5 +21,7 @@ tela.lb_support_build.setPixmap(QtGui.QPixmap('img/support_build.png'))
 tela.actionExit.triggered.connect(lambda: exit())
 tela.actionAlbedo.triggered.connect(albedo)
 
+tela.lb_background.setPixmap(QtGui.QPixmap('img/background/bg_albedo.png'))
+
 tela.show()
 app.exec_()
