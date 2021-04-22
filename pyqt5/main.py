@@ -1,6 +1,11 @@
 from PyQt5 import uic, QtWidgets, QtGui
+import sqlite3
 
 def albedo():
+
+    conn = sqlite3.connect('db/genshin.db')
+    c = conn.cursor()
+
     tela.lb_weapon_1.setPixmap(QtGui.QPixmap('img/weapons/Skyward_Blade.png'))
     tela.lb_weapon_2.setPixmap(QtGui.QPixmap('img/weapons/Festering_Desire.png'))
     tela.lb_artifact_1.setPixmap(QtGui.QPixmap('img/artifact/archaic_petra.png'))
