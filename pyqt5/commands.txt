@@ -25,3 +25,12 @@ if data_artifact[] = 24: tela.lb_artifact_dps_1.setPixmap(QtGui.QPixmap('img/art
 if data_artifact[] = 25: tela.lb_artifact_dps_1.setPixmap(QtGui.QPixmap('img/artifact/traveling_doctor.png')
 if data_artifact[] = 26: tela.lb_artifact_dps_1.setPixmap(QtGui.QPixmap('img/artifact/viridescent_venerer.png')
 if data_artifact[] = 27: tela.lb_artifact_dps_1.setPixmap(QtGui.QPixmap('img/artifact/wanderers_troupe.png')
+
+tela.lb_weapon_1.setPixmap(QtGui.QPixmap('img/weapons/Skyward_Blade.png'))
+    tela.lb_weapon_2.setPixmap(QtGui.QPixmap('img/weapons/Festering_Desire.png'))
+    tela.lb_artifact_1.setPixmap(QtGui.QPixmap('img/artifact/archaic_petra.png'))
+    tela.lb_artifact_2.setPixmap(QtGui.QPixmap('img/artifact/noblesse_oblige.png'))
+    tela.lb_weapon_name_1.setText('Skyward Blade')
+    tela.lb_weapon_name_2.setText('Festering Desire')
+    tela.lb_artifact_name_1.setText('Archaic Petra')
+    tela.lb_artifact_name_2.setText('Noblesse Oblige')
