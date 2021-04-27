@@ -1,5 +1,6 @@
 SELECT
 	c.name,
+	c.element,
 	w_dps.name AS id_weapon_dps,
 	w_dps_or.name AS id_weapon_dps_or,
 	w_sup.name AS id_weapon_sup,
@@ -14,7 +15,9 @@ SELECT
 	a_sup_2_or.name AS id_artifact_sup_2_or,
 	hypo.name AS id_hypos_mat,
 	nature.name AS id_nature_mat,
-	common.name AS id_common_mat
+	common.name AS id_common_mat,
+	talent.name AS id_talent_mat,
+	boss.name AS id_bosss_mat 
 FROM
 	chars as c
 LEFT JOIN weapon AS w_dps ON c.id_weapon_dps = w_dps.id
@@ -31,4 +34,6 @@ LEFT JOIN artifact AS a_sup_2 ON c.id_artifact_sup_2 = a_sup_2.id
 LEFT JOIN artifact AS a_sup_2_or ON c.id_artifact_sup_2_or = a_sup_2_or.id
 LEFT JOIN hypos_mat AS hypo ON c.id_hypos_mat = hypo.id
 LEFT JOIN nature_mat AS nature ON c.id_nature_mat = nature.id
-LEFT JOIN common_mat AS common ON c.id_common_mat = common.id;
+LEFT JOIN common_mat AS common ON c.id_common_mat = common.id
+LEFT JOIN talent_mat AS talent ON c.id_talent_mat = talent.id
+LEFT JOIN boss_mat AS boss ON c.id_bosss_mat = boss.id;
