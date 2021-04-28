@@ -17,6 +17,6 @@ SELECT
 	id_nature_mat,
 	id_common_mat,
 	id_talent_mat,
-	id_bosss_mat 
+	id_bosss_mat
 FROM
 	chars
