@@ -16,6 +16,7 @@ tela = uic.loadUi('ui/tela_inicial.ui')
 tela.actionExit.triggered.connect(lambda: exit())
 tela.actionAlbedo.triggered.connect(albedo)
 
+# Imagem teste
 tela.lb_background.setPixmap(QtGui.QPixmap('img/background/bg_albedo.png'))
 
 tela.show()
