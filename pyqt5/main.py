@@ -1,14 +1,15 @@
 from PyQt5 import uic, QtWidgets, QtGui
 import sqlite3
+from util import check_element
 
 def albedo():
 
-    conn = sqlite3.connect('db/genshin.db')
-    c = conn.cursor()
+    person = 'Albedo'
 
     tela.lb_element.setPixmap(QtGui.QPixmap('img/elements/Element_Geo.png'))
-    tela.lb_background.setPixmap(QtGui.QPixmap('img/background/bg_albedo.png'))
+    tela.lb_background.setPixmap(QtGui.QPixmap('img/background/64z64/bg_albedo.png'))
 
+    print(check_element.check(person))
 
 app = QtWidgets.QApplication([])
 
