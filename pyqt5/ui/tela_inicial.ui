@@ -67,6 +67,19 @@ QMenu::item::selected {
      <bool>false</bool>
     </property>
    </widget>
+   <widget class="QLabel" name="lb_element">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>64</width>
+      <height>64</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
