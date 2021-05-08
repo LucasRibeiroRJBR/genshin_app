@@ -1,19 +1,21 @@
 from PyQt5 import uic, QtWidgets, QtGui
 import sqlite3
-from util import check_element
+from util import set_element
 
 def albedo():
 
     person = 'Albedo'
 
-    tela.lb_element.setPixmap(QtGui.QPixmap('img/elements/Element_Geo.png'))
     tela.lb_background.setPixmap(QtGui.QPixmap('img/background/64z64/bg_albedo.png'))
 
-    print(check_element.check(person))
+    print(set_element.check(person))
+
 
 app = QtWidgets.QApplication([])
 
 tela = uic.loadUi('ui/tela_inicial.ui')
+
+tela.lb_dps_build.setPixmap(QtGui.QPixmap('img/dps_build.png'))
 
 tela.actionExit.triggered.connect(lambda: exit())
 tela.actionAlbedo.triggered.connect(albedo)
