@@ -61,10 +61,10 @@ QMenu::item::selected {
      </rect>
     </property>
     <property name="autoFillBackground">
-     <bool>true</bool>
+     <bool>false</bool>
     </property>
     <property name="text">
-     <string>background</string>
+     <string/>
     </property>
     <property name="scaledContents">
      <bool>false</bool>
@@ -109,10 +109,10 @@ QMenu::item::selected {
      </rect>
     </property>
     <property name="autoFillBackground">
-     <bool>true</bool>
+     <bool>false</bool>
     </property>
     <property name="text">
-     <string>título build dps</string>
+     <string/>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>

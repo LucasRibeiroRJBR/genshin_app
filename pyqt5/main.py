@@ -6,9 +6,9 @@ def albedo():
 
     person = 'Albedo'
 
-    tela.lb_background.setPixmap(QtGui.QPixmap('img/background/64z64/bg_albedo.png'))
+    tela.lb_background.setPixmap(QtGui.QPixmap('img/background/bg_albedo.png'))
 
-    print(set_element.check(person))
+
 
 
 app = QtWidgets.QApplication([])
