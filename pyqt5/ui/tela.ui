@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>389</width>
+    <width>395</width>
     <height>713</height>
    </rect>
   </property>
@@ -332,7 +332,7 @@ QMenu::item::selected {
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>389</width>
+     <width>395</width>
      <height>21</height>
     </rect>
    </property>
@@ -351,22 +351,12 @@ QMenu::item::selected {
      <string>Dendro</string>
     </property>
    </widget>
-   <widget class="QMenu" name="menuElectro">
-    <property name="title">
-     <string>Electro</string>
-    </property>
-    <addaction name="actionBeidou_2"/>
-    <addaction name="actionFischl_2"/>
-    <addaction name="actionKeqing_2"/>
-    <addaction name="actionLisa"/>
-    <addaction name="actionRazor_2"/>
-   </widget>
    <widget class="QMenu" name="menuGeo">
     <property name="title">
      <string>Geo</string>
     </property>
     <addaction name="actionAlbedo"/>
-    <addaction name="actionningguang"/>
+    <addaction name="actionNingguang"/>
     <addaction name="actionNoelle"/>
     <addaction name="actionTraveler_Geo"/>
     <addaction name="actionZhongli"/>
@@ -389,7 +379,7 @@ QMenu::item::selected {
     <addaction name="actionDiluc"/>
     <addaction name="actionHu_Tao"/>
     <addaction name="actionKlee"/>
-    <addaction name="actionXingling"/>
+    <addaction name="actionXiangling"/>
     <addaction name="actionXinyan"/>
    </widget>
    <widget class="QMenu" name="menuMenu">
@@ -407,6 +397,16 @@ QMenu::item::selected {
     <addaction name="actionGanyu"/>
     <addaction name="actionKaeya"/>
     <addaction name="actionQiqi"/>
+   </widget>
+   <widget class="QMenu" name="menuElectro">
+    <property name="title">
+     <string>Electro</string>
+    </property>
+    <addaction name="actionBeidou_4"/>
+    <addaction name="actionFischl_3"/>
+    <addaction name="actionKeqing_3"/>
+    <addaction name="actionLisa_2"/>
+    <addaction name="actionRazor_3"/>
    </widget>
    <addaction name="menuMenu"/>
    <addaction name="menuAnemo"/>
@@ -502,7 +502,7 @@ QMenu::item::selected {
     <string> Albedo</string>
    </property>
   </action>
-  <action name="actionningguang">
+  <action name="actionNingguang">
    <property name="text">
     <string> Ningguang</string>
    </property>
@@ -567,9 +567,9 @@ QMenu::item::selected {
     <string> Klee</string>
    </property>
   </action>
-  <action name="actionXingling">
+  <action name="actionXiangling">
    <property name="text">
-    <string> Xingling</string>
+    <string> Xiangling</string>
    </property>
   </action>
   <action name="actionXinyan">
@@ -600,6 +600,36 @@ QMenu::item::selected {
   <action name="actionQiqi">
    <property name="text">
     <string> Qiqi</string>
+   </property>
+  </action>
+  <action name="actionBeidou_3">
+   <property name="text">
+    <string>Beidou</string>
+   </property>
+  </action>
+  <action name="actionBeidou_4">
+   <property name="text">
+    <string>Beidou</string>
+   </property>
+  </action>
+  <action name="actionFischl_3">
+   <property name="text">
+    <string>Fischl</string>
+   </property>
+  </action>
+  <action name="actionKeqing_3">
+   <property name="text">
+    <string>Keqing</string>
+   </property>
+  </action>
+  <action name="actionLisa_2">
+   <property name="text">
+    <string>Lisa</string>
+   </property>
+  </action>
+  <action name="actionRazor_3">
+   <property name="text">
+    <string>Razor</string>
    </property>
   </action>
  </widget>
