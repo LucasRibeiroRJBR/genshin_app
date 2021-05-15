@@ -547,3 +547,27 @@ def element(tela,e):
     if dado[0][19] == 7: tela.lb_boss.setPixmap(QtGui.QPixmap("img/boss_mat/Tusk_of_Monoceros_Caeli.png"))
     if dado[0][19] == 8: tela.lb_boss.setPixmap(QtGui.QPixmap("img/boss_mat/Shard_of_a_Foul_Legacy.png"))
     if dado[0][19] == 9: tela.lb_boss.setPixmap(QtGui.QPixmap("img/boss_mat/Shadow_of_the_Warrior.png"))
+
+    # TEXTS
+
+    names = c.execute(f"SELECT w_dps.name AS id_weapon_dps,w_dps_or.name AS id_weapon_dps_or,w_sup.name AS id_weapon_sup,w_sup_or.name AS id_weapon_sup_or,a_dps_1.name AS id_artifact_dps_1,a_dps_1_or.name AS id_artifact_dps_1_or,a_dps_2.name AS id_artifact_dps_2,a_dps_2_or.name AS id_artifact_dps_2_or,a_sup_1.name AS id_artifact_sup_1,a_sup_1_or.name AS id_artifact_sup_1_or,a_sup_2.name AS id_artifact_sup_2,a_sup_2_or.name AS id_artifact_sup_2_or FROM chars as c LEFT JOIN weapon AS w_dps ON c.id_weapon_dps = w_dps.id LEFT JOIN weapon AS w_dps_or ON c.id_weapon_dps_or = w_dps_or.id LEFT JOIN weapon AS w_sup ON c.id_weapon_sup = w_sup.id LEFT JOIN weapon AS w_sup_or ON c.id_weapon_sup_or = w_sup_or.id LEFT JOIN artifact AS a_dps_1 ON c.id_artifact_dps_1 = a_dps_1.id LEFT JOIN artifact AS a_dps_1_or ON c.id_artifact_dps_1_or = a_dps_1_or.id LEFT JOIN artifact AS a_dps_2 ON c.id_artifact_dps_2 = a_dps_2.id LEFT JOIN artifact AS a_dps_2_or ON c.id_artifact_dps_2_or = a_dps_2_or.id LEFT JOIN artifact AS a_sup_1 ON c.id_artifact_sup_1 = a_sup_1.id LEFT JOIN artifact AS a_sup_1_or ON c.id_artifact_sup_1_or = a_sup_1_or.id LEFT JOIN artifact AS a_sup_2 ON c.id_artifact_sup_2 = a_sup_2.id LEFT JOIN artifact AS a_sup_2_or ON c.id_artifact_sup_2_or = a_sup_2_or.id LEFT JOIN hypos_mat AS hypo ON c.id_hypos_mat = hypo.id LEFT JOIN nature_mat AS nature ON c.id_nature_mat = nature.id LEFT JOIN common_mat AS common ON c.id_common_mat = common.id LEFT JOIN talent_mat AS talent ON c.id_talent_mat = talent.id LEFT JOIN boss_mat AS boss ON c.id_bosss_mat = boss.id WHERE c.name = '{e}';").fetchall()
+
+    if names[0][0] == '':
+        tela.txt_weapon_dps.setText('-')
+    else:
+        tela.txt_weapon_dps.setText(names[0][0])
+
+    if names[0][1] == '':
+        tela.txt_weapon_dps_or.setText('-')
+    else:
+        tela.txt_weapon_dps_or.setText(names[0][1])
+
+    if names[0][2] == '':
+        tela.txt_weapon_sup.setText('-')
+    else:
+        tela.txt_weapon_sup.setText(names[0][2])
+
+    if names[0][3] == '':
+        tela.txt_weapon_sup_or.setText('-')
+    else:
+        tela.txt_weapon_sup_or.setText(names[0][3])

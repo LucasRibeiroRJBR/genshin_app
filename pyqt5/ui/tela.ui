@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>531</width>
+    <width>539</width>
     <height>702</height>
    </rect>
   </property>
@@ -109,7 +109,7 @@ QMenu::item::selected
    <widget class="QLabel" name="lb_weapon_dps">
     <property name="geometry">
      <rect>
-      <x>70</x>
+      <x>80</x>
       <y>270</y>
       <width>64</width>
       <height>64</height>
@@ -144,7 +144,7 @@ QMenu::item::selected
    <widget class="QLabel" name="lb_artifact_dps_1">
     <property name="geometry">
      <rect>
-      <x>250</x>
+      <x>260</x>
       <y>270</y>
       <width>64</width>
       <height>64</height>
@@ -176,7 +176,7 @@ QMenu::item::selected
    <widget class="QLabel" name="lb_weapon_dps_or">
     <property name="geometry">
      <rect>
-      <x>70</x>
+      <x>80</x>
       <y>360</y>
       <width>64</width>
       <height>64</height>
@@ -192,7 +192,7 @@ QMenu::item::selected
    <widget class="QLabel" name="lb_artifact_dps_1_or">
     <property name="geometry">
      <rect>
-      <x>250</x>
+      <x>260</x>
       <y>360</y>
       <width>64</width>
       <height>64</height>
@@ -275,7 +275,7 @@ QMenu::item::selected
    <widget class="QLabel" name="lb_artifact_dps_1_or_2">
     <property name="geometry">
      <rect>
-      <x>250</x>
+      <x>260</x>
       <y>590</y>
       <width>64</width>
       <height>64</height>
@@ -291,7 +291,7 @@ QMenu::item::selected
    <widget class="QLabel" name="lb_weapon_dps_2">
     <property name="geometry">
      <rect>
-      <x>70</x>
+      <x>80</x>
       <y>500</y>
       <width>64</width>
       <height>64</height>
@@ -307,7 +307,7 @@ QMenu::item::selected
    <widget class="QLabel" name="lb_artifact_dps_4">
     <property name="geometry">
      <rect>
-      <x>250</x>
+      <x>260</x>
       <y>500</y>
       <width>64</width>
       <height>64</height>
@@ -323,7 +323,7 @@ QMenu::item::selected
    <widget class="QLabel" name="lb_weapon_dps_or_2">
     <property name="geometry">
      <rect>
-      <x>70</x>
+      <x>80</x>
       <y>590</y>
       <width>64</width>
       <height>64</height>
@@ -339,163 +339,199 @@ QMenu::item::selected
    <widget class="QLabel" name="txt_weapon_dps">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>340</y>
-      <width>185</width>
-      <height>16</height>
+      <x>0</x>
+      <y>329</y>
+      <width>211</width>
+      <height>31</height>
      </rect>
     </property>
     <property name="text">
-     <string>Thrilling Tales of Dragon Slayers</string>
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
    <widget class="QLabel" name="txt_weapon_dps_or">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>430</y>
-      <width>185</width>
-      <height>16</height>
+      <x>0</x>
+      <y>419</y>
+      <width>211</width>
+      <height>31</height>
      </rect>
     </property>
     <property name="text">
-     <string>Thrilling Tales of Dragon Slayers</string>
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
    <widget class="QLabel" name="txt_artifact_dps">
     <property name="geometry">
      <rect>
-      <x>210</x>
-      <y>340</y>
-      <width>147</width>
-      <height>16</height>
+      <x>220</x>
+      <y>329</y>
+      <width>151</width>
+      <height>31</height>
      </rect>
     </property>
     <property name="text">
      <string>Crimson Witch of Flames</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
    <widget class="QLabel" name="txt_artifact_dps_or">
     <property name="geometry">
      <rect>
-      <x>210</x>
-      <y>430</y>
-      <width>147</width>
-      <height>16</height>
+      <x>216</x>
+      <y>419</y>
+      <width>161</width>
+      <height>31</height>
      </rect>
     </property>
     <property name="text">
      <string>Crimson Witch of Flames</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
    <widget class="QLabel" name="txt_artifact_dps_2">
     <property name="geometry">
      <rect>
-      <x>380</x>
-      <y>340</y>
-      <width>147</width>
-      <height>16</height>
+      <x>370</x>
+      <y>329</y>
+      <width>171</width>
+      <height>31</height>
      </rect>
     </property>
     <property name="text">
      <string>Crimson Witch of Flames</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
    <widget class="QLabel" name="txt_artifact_dps_or_2">
     <property name="geometry">
      <rect>
-      <x>380</x>
-      <y>430</y>
-      <width>147</width>
-      <height>16</height>
+      <x>376</x>
+      <y>419</y>
+      <width>161</width>
+      <height>31</height>
      </rect>
     </property>
     <property name="text">
      <string>Crimson Witch of Flames</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
    <widget class="QLabel" name="txt_weapon_sup">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>570</y>
-      <width>185</width>
-      <height>16</height>
+      <x>0</x>
+      <y>559</y>
+      <width>211</width>
+      <height>31</height>
      </rect>
     </property>
     <property name="text">
-     <string>Thrilling Tales of Dragon Slayers</string>
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
-   <widget class="QLabel" name="txt_weapon_sup_2">
+   <widget class="QLabel" name="txt_weapon_sup_or">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>660</y>
-      <width>185</width>
-      <height>16</height>
+      <x>0</x>
+      <y>649</y>
+      <width>211</width>
+      <height>31</height>
      </rect>
     </property>
     <property name="text">
-     <string>Thrilling Tales of Dragon Slayers</string>
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
    <widget class="QLabel" name="txt_artifact_sup">
     <property name="geometry">
      <rect>
-      <x>210</x>
-      <y>570</y>
-      <width>147</width>
-      <height>16</height>
+      <x>220</x>
+      <y>559</y>
+      <width>151</width>
+      <height>31</height>
      </rect>
     </property>
     <property name="text">
      <string>Crimson Witch of Flames</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
    <widget class="QLabel" name="txt_artifact_sup_2">
     <property name="geometry">
      <rect>
       <x>380</x>
-      <y>570</y>
-      <width>147</width>
-      <height>16</height>
+      <y>565</y>
+      <width>151</width>
+      <height>21</height>
      </rect>
     </property>
     <property name="text">
      <string>Crimson Witch of Flames</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
    <widget class="QLabel" name="txt_artifact_sup_or">
     <property name="geometry">
      <rect>
-      <x>210</x>
-      <y>660</y>
-      <width>147</width>
-      <height>16</height>
+      <x>216</x>
+      <y>649</y>
+      <width>161</width>
+      <height>31</height>
      </rect>
     </property>
     <property name="text">
      <string>Crimson Witch of Flames</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
    <widget class="QLabel" name="txt_artifact_sup_or_2">
     <property name="geometry">
      <rect>
       <x>380</x>
-      <y>660</y>
-      <width>147</width>
-      <height>16</height>
+      <y>655</y>
+      <width>151</width>
+      <height>21</height>
      </rect>
     </property>
     <property name="text">
      <string>Crimson Witch of Flames</string>
     </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
    </widget>
    <widget class="Line" name="line">
     <property name="geometry">
      <rect>
-      <x>189</x>
+      <x>200</x>
       <y>270</y>
       <width>31</width>
       <height>181</height>
@@ -508,7 +544,7 @@ QMenu::item::selected
    <widget class="Line" name="line_2">
     <property name="geometry">
      <rect>
-      <x>190</x>
+      <x>200</x>
       <y>500</y>
       <width>31</width>
       <height>181</height>
@@ -521,7 +557,7 @@ QMenu::item::selected
    <widget class="Line" name="line_3">
     <property name="geometry">
      <rect>
-      <x>350</x>
+      <x>360</x>
       <y>270</y>
       <width>31</width>
       <height>181</height>
@@ -534,7 +570,7 @@ QMenu::item::selected
    <widget class="Line" name="line_4">
     <property name="geometry">
      <rect>
-      <x>350</x>
+      <x>360</x>
       <y>500</y>
       <width>31</width>
       <height>181</height>
@@ -549,7 +585,7 @@ QMenu::item::selected
      <rect>
       <x>0</x>
       <y>350</y>
-      <width>531</width>
+      <width>541</width>
       <height>16</height>
      </rect>
     </property>
@@ -562,7 +598,7 @@ QMenu::item::selected
      <rect>
       <x>0</x>
       <y>580</y>
-      <width>531</width>
+      <width>541</width>
       <height>16</height>
      </rect>
     </property>
@@ -575,7 +611,7 @@ QMenu::item::selected
      <rect>
       <x>0</x>
       <y>490</y>
-      <width>531</width>
+      <width>541</width>
       <height>16</height>
      </rect>
     </property>
@@ -588,7 +624,7 @@ QMenu::item::selected
      <rect>
       <x>0</x>
       <y>260</y>
-      <width>531</width>
+      <width>541</width>
       <height>16</height>
      </rect>
     </property>
@@ -601,7 +637,7 @@ QMenu::item::selected
      <rect>
       <x>0</x>
       <y>440</y>
-      <width>531</width>
+      <width>541</width>
       <height>16</height>
      </rect>
     </property>
@@ -614,7 +650,7 @@ QMenu::item::selected
      <rect>
       <x>0</x>
       <y>670</y>
-      <width>531</width>
+      <width>541</width>
       <height>16</height>
      </rect>
     </property>
@@ -767,7 +803,7 @@ QMenu::item::selected
    <zorder>txt_artifact_dps_2</zorder>
    <zorder>txt_artifact_dps_or_2</zorder>
    <zorder>txt_weapon_sup</zorder>
-   <zorder>txt_weapon_sup_2</zorder>
+   <zorder>txt_weapon_sup_or</zorder>
    <zorder>txt_artifact_sup</zorder>
    <zorder>txt_artifact_sup_2</zorder>
    <zorder>txt_artifact_sup_or</zorder>
@@ -796,7 +832,7 @@ QMenu::item::selected
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>531</width>
+     <width>539</width>
      <height>21</height>
     </rect>
    </property>
