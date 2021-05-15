@@ -484,6 +484,64 @@ def element(tela,e):
     if dado[0][9] == 106: tela.lb_weapon_dps_or_2.setPixmap(QtGui.QPixmap('img/weapons/Wine_and_Song.png'))
     if dado[0][9] == 107: tela.lb_weapon_dps_or_2.setPixmap(QtGui.QPixmap('img/weapons/Wolfs_Gravestone.png'))
 
+    if dado[0][10] == None: tela.lb_artifact_dps_1.setPixmap(QtGui.QPixmap('img/error.png'))
+    if dado[0][10] == 1: tela.lb_artifact_dps_1.setPixmap(QtGui.QPixmap('img/artifact/adventurer.png'))
+    if dado[0][10] == 2: tela.lb_artifact_dps_1.setPixmap(QtGui.QPixmap('img/artifact/archaic_petra.png'))
+    if dado[0][10] == 3: tela.lb_artifact_dps_1.setPixmap(QtGui.QPixmap('img/artifact/berserker.png'))
+    if dado[0][10] == 4: tela.lb_artifact_dps_1.setPixmap(QtGui.QPixmap('img/artifact/blizzard_strayer.png'))
+    if dado[0][10] == 5: tela.lb_artifact_dps_1.setPixmap(QtGui.QPixmap('img/artifact/bloodstained_chivalry.png'))
+    if dado[0][10] == 6: tela.lb_artifact_dps_1.setPixmap(QtGui.QPixmap('img/artifact/brave_heart.png'))
+    if dado[0][10] == 7: tela.lb_artifact_dps_1.setPixmap(QtGui.QPixmap('img/artifact/crimson_witch_of_flames.png'))
+    if dado[0][10] == 8: tela.lb_artifact_dps_1.setPixmap(QtGui.QPixmap('img/artifact/defenders_will.png'))
+    if dado[0][10] == 9: tela.lb_artifact_dps_1.setPixmap(QtGui.QPixmap('img/artifact/gambler.png'))
+    if dado[0][10] == 10: tela.lb_artifact_dps_1.setPixmap(QtGui.QPixmap('img/artifact/gladiators_finale.png'))
+    if dado[0][10] == 11: tela.lb_artifact_dps_1.setPixmap(QtGui.QPixmap('img/artifact/heart_of_depth.png'))
+    if dado[0][10] == 12: tela.lb_artifact_dps_1.setPixmap(QtGui.QPixmap('img/artifact/instructor.png'))
+    if dado[0][10] == 13: tela.lb_artifact_dps_1.setPixmap(QtGui.QPixmap('img/artifact/lavawalker.png'))
+    if dado[0][10] == 14: tela.lb_artifact_dps_1.setPixmap(QtGui.QPixmap('img/artifact/lucky_dog.png'))
+    if dado[0][10] == 15: tela.lb_artifact_dps_1.setPixmap(QtGui.QPixmap('img/artifact/maiden_beloved.png'))
+    if dado[0][10] == 16: tela.lb_artifact_dps_1.setPixmap(QtGui.QPixmap('img/artifact/martial_artist.png'))
+    if dado[0][10] == 17: tela.lb_artifact_dps_1.setPixmap(QtGui.QPixmap('img/artifact/noblesse_oblige.png'))
+    if dado[0][10] == 18: tela.lb_artifact_dps_1.setPixmap(QtGui.QPixmap('img/artifact/resolution_of_sojourner.png'))
+    if dado[0][10] == 19: tela.lb_artifact_dps_1.setPixmap(QtGui.QPixmap('img/artifact/retracing_bolide.png'))
+    if dado[0][10] == 20: tela.lb_artifact_dps_1.setPixmap(QtGui.QPixmap('img/artifact/scholar.png'))
+    if dado[0][10] == 21: tela.lb_artifact_dps_1.setPixmap(QtGui.QPixmap('img/artifact/the_exile.png'))
+    if dado[0][10] == 22: tela.lb_artifact_dps_1.setPixmap(QtGui.QPixmap('img/artifact/thundering_fury.png'))
+    if dado[0][10] == 23: tela.lb_artifact_dps_1.setPixmap(QtGui.QPixmap('img/artifact/thundersoother.png'))
+    if dado[0][10] == 24: tela.lb_artifact_dps_1.setPixmap(QtGui.QPixmap('img/artifact/tiny_miracle.png'))
+    if dado[0][10] == 25: tela.lb_artifact_dps_1.setPixmap(QtGui.QPixmap('img/artifact/traveling_doctor.png'))
+    if dado[0][10] == 26: tela.lb_artifact_dps_1.setPixmap(QtGui.QPixmap('img/artifact/viridescent_venerer.png'))
+    if dado[0][10] == 27: tela.lb_artifact_dps_1.setPixmap(QtGui.QPixmap('img/artifact/wanderers_troupe.png'))
+
+    if dado[0][11] == None: tela.lb_artifact_dps_2.setPixmap(QtGui.QPixmap('img/error.png'))
+    if dado[0][11] == 1: tela.lb_artifact_dps_2.setPixmap(QtGui.QPixmap('img/artifact/adventurer.png'))
+    if dado[0][11] == 2: tela.lb_artifact_dps_2.setPixmap(QtGui.QPixmap('img/artifact/archaic_petra.png'))
+    if dado[0][11] == 3: tela.lb_artifact_dps_2.setPixmap(QtGui.QPixmap('img/artifact/berserker.png'))
+    if dado[0][11] == 4: tela.lb_artifact_dps_2.setPixmap(QtGui.QPixmap('img/artifact/blizzard_strayer.png'))
+    if dado[0][11] == 5: tela.lb_artifact_dps_2.setPixmap(QtGui.QPixmap('img/artifact/bloodstained_chivalry.png'))
+    if dado[0][11] == 6: tela.lb_artifact_dps_2.setPixmap(QtGui.QPixmap('img/artifact/brave_heart.png'))
+    if dado[0][11] == 7: tela.lb_artifact_dps_2.setPixmap(QtGui.QPixmap('img/artifact/crimson_witch_of_flames.png'))
+    if dado[0][11] == 8: tela.lb_artifact_dps_2.setPixmap(QtGui.QPixmap('img/artifact/defenders_will.png'))
+    if dado[0][11] == 9: tela.lb_artifact_dps_2.setPixmap(QtGui.QPixmap('img/artifact/gambler.png'))
+    if dado[0][11] == 10: tela.lb_artifact_dps_2.setPixmap(QtGui.QPixmap('img/artifact/gladiators_finale.png'))
+    if dado[0][11] == 11: tela.lb_artifact_dps_2.setPixmap(QtGui.QPixmap('img/artifact/heart_of_depth.png'))
+    if dado[0][11] == 12: tela.lb_artifact_dps_2.setPixmap(QtGui.QPixmap('img/artifact/instructor.png'))
+    if dado[0][11] == 13: tela.lb_artifact_dps_2.setPixmap(QtGui.QPixmap('img/artifact/lavawalker.png'))
+    if dado[0][11] == 14: tela.lb_artifact_dps_2.setPixmap(QtGui.QPixmap('img/artifact/lucky_dog.png'))
+    if dado[0][11] == 15: tela.lb_artifact_dps_2.setPixmap(QtGui.QPixmap('img/artifact/maiden_beloved.png'))
+    if dado[0][11] == 16: tela.lb_artifact_dps_2.setPixmap(QtGui.QPixmap('img/artifact/martial_artist.png'))
+    if dado[0][11] == 17: tela.lb_artifact_dps_2.setPixmap(QtGui.QPixmap('img/artifact/noblesse_oblige.png'))
+    if dado[0][11] == 18: tela.lb_artifact_dps_2.setPixmap(QtGui.QPixmap('img/artifact/resolution_of_sojourner.png'))
+    if dado[0][11] == 19: tela.lb_artifact_dps_2.setPixmap(QtGui.QPixmap('img/artifact/retracing_bolide.png'))
+    if dado[0][11] == 20: tela.lb_artifact_dps_2.setPixmap(QtGui.QPixmap('img/artifact/scholar.png'))
+    if dado[0][11] == 21: tela.lb_artifact_dps_2.setPixmap(QtGui.QPixmap('img/artifact/the_exile.png'))
+    if dado[0][11] == 22: tela.lb_artifact_dps_2.setPixmap(QtGui.QPixmap('img/artifact/thundering_fury.png'))
+    if dado[0][11] == 23: tela.lb_artifact_dps_2.setPixmap(QtGui.QPixmap('img/artifact/thundersoother.png'))
+    if dado[0][11] == 24: tela.lb_artifact_dps_2.setPixmap(QtGui.QPixmap('img/artifact/tiny_miracle.png'))
+    if dado[0][11] == 25: tela.lb_artifact_dps_2.setPixmap(QtGui.QPixmap('img/artifact/traveling_doctor.png'))
+    if dado[0][11] == 26: tela.lb_artifact_dps_2.setPixmap(QtGui.QPixmap('img/artifact/viridescent_venerer.png'))
+    if dado[0][11] == 27: tela.lb_artifact_dps_2.setPixmap(QtGui.QPixmap('img/artifact/wanderers_troupe.png'))
+
     if dado[0][18] == 1: tela.lb_talent.setPixmap(QtGui.QPixmap('img/talent_mat/Freedom.png'))
     if dado[0][18] == 2: tela.lb_talent.setPixmap(QtGui.QPixmap('img/talent_mat/Prosperity.png'))
     if dado[0][18] == 3: tela.lb_talent.setPixmap(QtGui.QPixmap('img/talent_mat/Diligence.png'))
@@ -552,22 +610,14 @@ def element(tela,e):
 
     names = c.execute(f"SELECT w_dps.name AS id_weapon_dps,w_dps_or.name AS id_weapon_dps_or,w_sup.name AS id_weapon_sup,w_sup_or.name AS id_weapon_sup_or,a_dps_1.name AS id_artifact_dps_1,a_dps_1_or.name AS id_artifact_dps_1_or,a_dps_2.name AS id_artifact_dps_2,a_dps_2_or.name AS id_artifact_dps_2_or,a_sup_1.name AS id_artifact_sup_1,a_sup_1_or.name AS id_artifact_sup_1_or,a_sup_2.name AS id_artifact_sup_2,a_sup_2_or.name AS id_artifact_sup_2_or FROM chars as c LEFT JOIN weapon AS w_dps ON c.id_weapon_dps = w_dps.id LEFT JOIN weapon AS w_dps_or ON c.id_weapon_dps_or = w_dps_or.id LEFT JOIN weapon AS w_sup ON c.id_weapon_sup = w_sup.id LEFT JOIN weapon AS w_sup_or ON c.id_weapon_sup_or = w_sup_or.id LEFT JOIN artifact AS a_dps_1 ON c.id_artifact_dps_1 = a_dps_1.id LEFT JOIN artifact AS a_dps_1_or ON c.id_artifact_dps_1_or = a_dps_1_or.id LEFT JOIN artifact AS a_dps_2 ON c.id_artifact_dps_2 = a_dps_2.id LEFT JOIN artifact AS a_dps_2_or ON c.id_artifact_dps_2_or = a_dps_2_or.id LEFT JOIN artifact AS a_sup_1 ON c.id_artifact_sup_1 = a_sup_1.id LEFT JOIN artifact AS a_sup_1_or ON c.id_artifact_sup_1_or = a_sup_1_or.id LEFT JOIN artifact AS a_sup_2 ON c.id_artifact_sup_2 = a_sup_2.id LEFT JOIN artifact AS a_sup_2_or ON c.id_artifact_sup_2_or = a_sup_2_or.id LEFT JOIN hypos_mat AS hypo ON c.id_hypos_mat = hypo.id LEFT JOIN nature_mat AS nature ON c.id_nature_mat = nature.id LEFT JOIN common_mat AS common ON c.id_common_mat = common.id LEFT JOIN talent_mat AS talent ON c.id_talent_mat = talent.id LEFT JOIN boss_mat AS boss ON c.id_bosss_mat = boss.id WHERE c.name = '{e}';").fetchall()
 
-    if names[0][0] == '':
-        tela.txt_weapon_dps.setText('-')
-    else:
-        tela.txt_weapon_dps.setText(names[0][0])
+    # WEAPONS
 
-    if names[0][1] == '':
-        tela.txt_weapon_dps_or.setText('-')
-    else:
-        tela.txt_weapon_dps_or.setText(names[0][1])
+    tela.txt_weapon_dps.setText('-') if names[0][0] == '' else tela.txt_weapon_dps.setText(names[0][0])
+    tela.txt_weapon_dps_or.setText('-') if names[0][1] == '' else tela.txt_weapon_dps_or.setText(names[0][1])
+    tela.txt_weapon_sup.setText('-') if names[0][2] == '' else tela.txt_weapon_sup.setText(names[0][2])
+    tela.txt_weapon_sup_or.setText('-') if names[0][3] == '' else tela.txt_weapon_sup_or.setText(names[0][3])
 
-    if names[0][2] == '':
-        tela.txt_weapon_sup.setText('-')
-    else:
-        tela.txt_weapon_sup.setText(names[0][2])
+    # ARTIFACTS
 
-    if names[0][3] == '':
-        tela.txt_weapon_sup_or.setText('-')
-    else:
-        tela.txt_weapon_sup_or.setText(names[0][3])
+    tela.txt_artifact_dps.setText('-') if names[0][4] == '' else tela.txt_artifact_dps.setText(names[0][4])
+    tela.txt_artifact_dps_2.setText('-') if names[0][5] == '' else tela.txt_artifact_dps_2.setText(names[0][5])

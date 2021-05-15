@@ -144,33 +144,39 @@ QMenu::item::selected
    <widget class="QLabel" name="lb_artifact_dps_1">
     <property name="geometry">
      <rect>
-      <x>260</x>
+      <x>220</x>
       <y>270</y>
-      <width>64</width>
+      <width>151</width>
       <height>64</height>
      </rect>
     </property>
     <property name="autoFillBackground">
-     <bool>true</bool>
+     <bool>false</bool>
     </property>
     <property name="text">
-     <string>artifact</string>
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
    <widget class="QLabel" name="lb_artifact_dps_2">
     <property name="geometry">
      <rect>
-      <x>420</x>
+      <x>383</x>
       <y>270</y>
-      <width>64</width>
+      <width>151</width>
       <height>64</height>
      </rect>
     </property>
     <property name="autoFillBackground">
-     <bool>true</bool>
+     <bool>false</bool>
     </property>
     <property name="text">
-     <string>artifact</string>
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
    <widget class="QLabel" name="lb_weapon_dps_or">
@@ -192,9 +198,9 @@ QMenu::item::selected
    <widget class="QLabel" name="lb_artifact_dps_1_or">
     <property name="geometry">
      <rect>
-      <x>260</x>
+      <x>220</x>
       <y>360</y>
-      <width>64</width>
+      <width>151</width>
       <height>64</height>
      </rect>
     </property>
@@ -202,15 +208,18 @@ QMenu::item::selected
      <bool>true</bool>
     </property>
     <property name="text">
-     <string>artifact</string>
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
    <widget class="QLabel" name="lb_artifact_dps_2_or">
     <property name="geometry">
      <rect>
-      <x>420</x>
+      <x>383</x>
       <y>360</y>
-      <width>64</width>
+      <width>151</width>
       <height>64</height>
      </rect>
     </property>
@@ -218,7 +227,10 @@ QMenu::item::selected
      <bool>true</bool>
     </property>
     <property name="text">
-     <string>artifact</string>
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
    <widget class="QLabel" name="lb_sup_build">
@@ -243,9 +255,9 @@ QMenu::item::selected
    <widget class="QLabel" name="lb_artifact_dps_3">
     <property name="geometry">
      <rect>
-      <x>420</x>
+      <x>383</x>
       <y>500</y>
-      <width>64</width>
+      <width>151</width>
       <height>64</height>
      </rect>
     </property>
@@ -253,15 +265,18 @@ QMenu::item::selected
      <bool>true</bool>
     </property>
     <property name="text">
-     <string>artifact</string>
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
    <widget class="QLabel" name="lb_artifact_dps_2_or_2">
     <property name="geometry">
      <rect>
-      <x>420</x>
+      <x>383</x>
       <y>590</y>
-      <width>64</width>
+      <width>151</width>
       <height>64</height>
      </rect>
     </property>
@@ -269,15 +284,18 @@ QMenu::item::selected
      <bool>true</bool>
     </property>
     <property name="text">
-     <string>artifact</string>
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
    <widget class="QLabel" name="lb_artifact_dps_1_or_2">
     <property name="geometry">
      <rect>
-      <x>260</x>
+      <x>220</x>
       <y>590</y>
-      <width>64</width>
+      <width>151</width>
       <height>64</height>
      </rect>
     </property>
@@ -285,7 +303,10 @@ QMenu::item::selected
      <bool>true</bool>
     </property>
     <property name="text">
-     <string>artifact</string>
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
    <widget class="QLabel" name="lb_weapon_dps_2">
@@ -307,9 +328,9 @@ QMenu::item::selected
    <widget class="QLabel" name="lb_artifact_dps_4">
     <property name="geometry">
      <rect>
-      <x>260</x>
+      <x>220</x>
       <y>500</y>
-      <width>64</width>
+      <width>151</width>
       <height>64</height>
      </rect>
     </property>
@@ -317,7 +338,10 @@ QMenu::item::selected
      <bool>true</bool>
     </property>
     <property name="text">
-     <string>artifact</string>
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
    <widget class="QLabel" name="lb_weapon_dps_or_2">
@@ -378,7 +402,7 @@ QMenu::item::selected
      </rect>
     </property>
     <property name="text">
-     <string>Crimson Witch of Flames</string>
+     <string/>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
@@ -661,7 +685,7 @@ QMenu::item::selected
    <widget class="QLabel" name="lb_talent">
     <property name="geometry">
      <rect>
-      <x>410</x>
+      <x>480</x>
       <y>60</y>
       <width>50</width>
       <height>50</height>
@@ -677,7 +701,7 @@ QMenu::item::selected
    <widget class="QLabel" name="lb_nature">
     <property name="geometry">
      <rect>
-      <x>470</x>
+      <x>410</x>
       <y>120</y>
       <width>50</width>
       <height>50</height>
@@ -693,7 +717,7 @@ QMenu::item::selected
    <widget class="QLabel" name="lb_hypo">
     <property name="geometry">
      <rect>
-      <x>470</x>
+      <x>410</x>
       <y>60</y>
       <width>50</width>
       <height>50</height>
@@ -709,7 +733,7 @@ QMenu::item::selected
    <widget class="QLabel" name="lb_common">
     <property name="geometry">
      <rect>
-      <x>470</x>
+      <x>410</x>
       <y>180</y>
       <width>50</width>
       <height>50</height>
@@ -725,7 +749,7 @@ QMenu::item::selected
    <widget class="QLabel" name="lb_common_2">
     <property name="geometry">
      <rect>
-      <x>410</x>
+      <x>480</x>
       <y>120</y>
       <width>50</width>
       <height>50</height>
@@ -741,7 +765,7 @@ QMenu::item::selected
    <widget class="QLabel" name="lb_boss">
     <property name="geometry">
      <rect>
-      <x>410</x>
+      <x>480</x>
       <y>180</y>
       <width>50</width>
       <height>50</height>
@@ -757,7 +781,7 @@ QMenu::item::selected
    <widget class="QLabel" name="lb_ascension">
     <property name="geometry">
      <rect>
-      <x>470</x>
+      <x>410</x>
       <y>0</y>
       <width>50</width>
       <height>50</height>
@@ -770,7 +794,7 @@ QMenu::item::selected
    <widget class="QLabel" name="lb_skill_up">
     <property name="geometry">
      <rect>
-      <x>410</x>
+      <x>480</x>
       <y>9</y>
       <width>50</width>
       <height>41</height>
