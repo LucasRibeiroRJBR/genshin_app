@@ -11,7 +11,8 @@ tela = uic.loadUi('ui/tela.ui')
 
 tela.lb_dps_build.setPixmap(QtGui.QPixmap('img/dps_build.png'))
 tela.lb_sup_build.setPixmap(QtGui.QPixmap('img/sup_build.png'))
-
+tela.lb_ascension.setPixmap(QtGui.QPixmap('img/ascension.png'))
+tela.lb_skill_up.setPixmap(QtGui.QPixmap('img/skill_up.png'))
 tela.actionExit.triggered.connect(lambda: exit())
 
 for ii, i in enumerate(chars):

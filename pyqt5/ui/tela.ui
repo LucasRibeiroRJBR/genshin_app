@@ -29,6 +29,11 @@ QLabel
 	color: white;
 }
 
+QLabel#lb_hypo,QLabel#lb_nature, QLabel#lb_common, QLabel#lb_talent, QLabel#lb_boss, QLabel#lb_common_2
+{
+		background-color:#6857A1;
+}
+
 QGroupBox
 {
 	color: white;
@@ -71,7 +76,7 @@ QMenu::item::selected
      <rect>
       <x>0</x>
       <y>0</y>
-      <width>531</width>
+      <width>411</width>
       <height>221</height>
      </rect>
     </property>
@@ -155,7 +160,7 @@ QMenu::item::selected
    <widget class="QLabel" name="lb_artifact_dps_2">
     <property name="geometry">
      <rect>
-      <x>410</x>
+      <x>420</x>
       <y>270</y>
       <width>64</width>
       <height>64</height>
@@ -203,7 +208,7 @@ QMenu::item::selected
    <widget class="QLabel" name="lb_artifact_dps_2_or">
     <property name="geometry">
      <rect>
-      <x>410</x>
+      <x>420</x>
       <y>360</y>
       <width>64</width>
       <height>64</height>
@@ -238,7 +243,7 @@ QMenu::item::selected
    <widget class="QLabel" name="lb_artifact_dps_3">
     <property name="geometry">
      <rect>
-      <x>410</x>
+      <x>420</x>
       <y>500</y>
       <width>64</width>
       <height>64</height>
@@ -254,7 +259,7 @@ QMenu::item::selected
    <widget class="QLabel" name="lb_artifact_dps_2_or_2">
     <property name="geometry">
      <rect>
-      <x>410</x>
+      <x>420</x>
       <y>590</y>
       <width>64</width>
       <height>64</height>
@@ -386,7 +391,7 @@ QMenu::item::selected
    <widget class="QLabel" name="txt_artifact_dps_2">
     <property name="geometry">
      <rect>
-      <x>370</x>
+      <x>380</x>
       <y>340</y>
       <width>147</width>
       <height>16</height>
@@ -399,7 +404,7 @@ QMenu::item::selected
    <widget class="QLabel" name="txt_artifact_dps_or_2">
     <property name="geometry">
      <rect>
-      <x>370</x>
+      <x>380</x>
       <y>430</y>
       <width>147</width>
       <height>16</height>
@@ -451,7 +456,7 @@ QMenu::item::selected
    <widget class="QLabel" name="txt_artifact_sup_2">
     <property name="geometry">
      <rect>
-      <x>370</x>
+      <x>380</x>
       <y>570</y>
       <width>147</width>
       <height>16</height>
@@ -477,7 +482,7 @@ QMenu::item::selected
    <widget class="QLabel" name="txt_artifact_sup_or_2">
     <property name="geometry">
      <rect>
-      <x>370</x>
+      <x>380</x>
       <y>660</y>
       <width>147</width>
       <height>16</height>
@@ -617,11 +622,11 @@ QMenu::item::selected
      <enum>Qt::Horizontal</enum>
     </property>
    </widget>
-   <widget class="QLabel" name="lb_hypo">
+   <widget class="QLabel" name="lb_talent">
     <property name="geometry">
      <rect>
-      <x>470</x>
-      <y>0</y>
+      <x>410</x>
+      <y>60</y>
       <width>50</width>
       <height>50</height>
      </rect>
@@ -633,23 +638,7 @@ QMenu::item::selected
      <string/>
     </property>
    </widget>
-   <widget class="QLabel" name="lb_hypo_2">
-    <property name="geometry">
-     <rect>
-      <x>470</x>
-      <y>60</y>
-      <width>50</width>
-      <height>50</height>
-     </rect>
-    </property>
-    <property name="autoFillBackground">
-     <bool>true</bool>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
-   <widget class="QLabel" name="lb_hypo_3">
+   <widget class="QLabel" name="lb_nature">
     <property name="geometry">
      <rect>
       <x>470</x>
@@ -659,13 +648,29 @@ QMenu::item::selected
      </rect>
     </property>
     <property name="autoFillBackground">
-     <bool>true</bool>
+     <bool>false</bool>
     </property>
     <property name="text">
      <string/>
     </property>
    </widget>
-   <widget class="QLabel" name="lb_hypo_4">
+   <widget class="QLabel" name="lb_hypo">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>60</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lb_common">
     <property name="geometry">
      <rect>
       <x>470</x>
@@ -675,7 +680,65 @@ QMenu::item::selected
      </rect>
     </property>
     <property name="autoFillBackground">
-     <bool>true</bool>
+     <bool>false</bool>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lb_common_2">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>120</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lb_boss">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>180</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lb_ascension">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>0</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lb_skill_up">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>9</y>
+      <width>50</width>
+      <height>41</height>
+     </rect>
     </property>
     <property name="text">
      <string/>
@@ -719,10 +782,14 @@ QMenu::item::selected
    <zorder>line_8</zorder>
    <zorder>line_9</zorder>
    <zorder>line_10</zorder>
+   <zorder>lb_talent</zorder>
+   <zorder>lb_nature</zorder>
    <zorder>lb_hypo</zorder>
-   <zorder>lb_hypo_2</zorder>
-   <zorder>lb_hypo_3</zorder>
-   <zorder>lb_hypo_4</zorder>
+   <zorder>lb_common</zorder>
+   <zorder>lb_common_2</zorder>
+   <zorder>lb_boss</zorder>
+   <zorder>lb_ascension</zorder>
+   <zorder>lb_skill_up</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
