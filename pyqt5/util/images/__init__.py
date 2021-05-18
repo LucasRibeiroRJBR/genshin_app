@@ -1,14 +1,15 @@
 import sqlite3
+from pygame import mixer
 from PyQt5 import QtGui
 
 # Exemplo
 # [(15, 'Klee', 'Pyro', 3, 7, 2, 79, 86, None, None, 7, None, 7, 10, None, None, None, None, 1, 2)]
 
-def element(tela,e):
+def char_info(tela,e):
     conn = sqlite3.connect('db/genshin.db')
     c = conn.cursor()
     dado = c.execute(f"SELECT * FROM chars WHERE name = '{e}';").fetchall()
-    
+
     if dado[0][2] == 'Anemo': tela.lb_element.setPixmap(QtGui.QPixmap('img/elements/Element_Anemo.png'))
     if dado[0][2] == 'Cryo': tela.lb_element.setPixmap(QtGui.QPixmap('img/elements/Element_Cryo.png'))
     if dado[0][2] == 'Dendro': tela.lb_element.setPixmap(QtGui.QPixmap('img/elements/Element_Dendro.png'))
@@ -803,3 +804,6 @@ def element(tela,e):
     tela.txt_artifact_sup_2.setText('-') if names[0][9] == '' else tela.txt_artifact_sup_2.setText(names[0][9])
     tela.txt_artifact_sup_or.setText('-') if names[0][10] == '' else tela.txt_artifact_sup_or.setText(names[0][10])
     tela.txt_artifact_sup_or_2.setText('-') if names[0][11] == '' else tela.txt_artifact_sup_or_2.setText(names[0][11])
+
+    mixer.init()
+    mixer.Sound('sound/switch.mp3').play()

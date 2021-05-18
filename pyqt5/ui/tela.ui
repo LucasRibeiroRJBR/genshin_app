@@ -498,7 +498,7 @@ QMenu::item::selected
      </rect>
     </property>
     <property name="text">
-     <string>Crimson Witch of Flames</string>
+     <string/>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
@@ -514,7 +514,7 @@ QMenu::item::selected
      </rect>
     </property>
     <property name="text">
-     <string>Crimson Witch of Flames</string>
+     <string/>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
@@ -530,7 +530,7 @@ QMenu::item::selected
      </rect>
     </property>
     <property name="text">
-     <string>Crimson Witch of Flames</string>
+     <string/>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
@@ -546,7 +546,7 @@ QMenu::item::selected
      </rect>
     </property>
     <property name="text">
-     <string>Crimson Witch of Flames</string>
+     <string/>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
