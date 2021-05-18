@@ -41,6 +41,8 @@ def char_info(tela,e):
     if dado[0][1] == 'Razor': tela.lb_background.setPixmap(QtGui.QPixmap('img/background/bg_razor.png'))
     if dado[0][1] == 'Sucrose': tela.lb_background.setPixmap(QtGui.QPixmap('img/background/bg_sucrose.png'))
     if dado[0][1] == 'Tartaglia': tela.lb_background.setPixmap(QtGui.QPixmap('img/background/bg_tartaglia.png'))
+    if dado[0][1] == 'Traveler (Anemo)': tela.lb_background.setPixmap(QtGui.QPixmap('img/background/bg_traveler_anemo.png'))
+    if dado[0][1] == 'Traveler (Geo)': tela.lb_background.setPixmap(QtGui.QPixmap('img/background/bg_traveler_geo.png'))
     if dado[0][1] == 'Venti': tela.lb_background.setPixmap(QtGui.QPixmap('img/background/bg_venti.png'))
     if dado[0][1] == 'Xiangling': tela.lb_background.setPixmap(QtGui.QPixmap('img/background/bg_xiangliang.png'))
     if dado[0][1] == 'Xiao': tela.lb_background.setPixmap(QtGui.QPixmap('img/background/bg_xiao.png'))
