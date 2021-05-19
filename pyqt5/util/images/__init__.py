@@ -726,6 +726,7 @@ def char_info(tela,e):
     if dado[0][18] == 5: tela.lb_talent.setPixmap(QtGui.QPixmap('img/talent_mat/Ballad.png'))
     if dado[0][18] == 6: tela.lb_talent.setPixmap(QtGui.QPixmap('img/talent_mat/Gold.png'))
 
+    if dado[0][3] == None: tela.lb_hypo.setPixmap(QtGui.QPixmap('img/error.png'))
     if dado[0][3] == 1: tela.lb_hypo.setPixmap(QtGui.QPixmap('img/hypo_mat/Basalt_Pillar.png'))
     if dado[0][3] == 2: tela.lb_hypo.setPixmap(QtGui.QPixmap('img/hypo_mat/Cleansing_Heart.png'))
     if dado[0][3] == 3: tela.lb_hypo.setPixmap(QtGui.QPixmap('img/hypo_mat/Everflame_Seed.png'))

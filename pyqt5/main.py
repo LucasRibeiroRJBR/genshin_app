@@ -10,6 +10,8 @@ chars2 = ['Albedo','Amber','Barbara','Beidou_4','Bennett','Chongyun','Diluc','Di
 app = QtWidgets.QApplication([])
 tela = uic.loadUi('ui/tela.ui')
 
+tela.setWindowIcon(QtGui.QIcon('img/icon.ico'))
+
 tela.lb_dps_build.setPixmap(QtGui.QPixmap('img/dps_build.png'))
 tela.lb_sup_build.setPixmap(QtGui.QPixmap('img/sup_build.png'))
 tela.lb_ascension.setPixmap(QtGui.QPixmap('img/ascension.png'))
