@@ -2,9 +2,15 @@ from PyQt5 import uic, QtWidgets, QtGui
 from util.images import char_info
 from util.commands import exiting
 
-chars = ['Albedo','Amber','Barbara','Beidou','Bennett','Chongyun','Diluc','Diona','Fischl','Ganyu','Hu Tao','Jean','Kaeya','Keqing','Klee','Lisa','Mona','Ningguang','Noelle','Qiqi','Razor','Sucrose','Tartaglia', 'Traveler (Anemo)', 'Traveler (Geo)','Venti','Xiangling','Xiao','Xingqiu','Xinyan','Yanfei','Zhongli']
+chars = ['Albedo','Amber','Barbara','Beidou','Bennett','Chongyun','Diluc','Diona','Fischl',
+         'Ganyu','Hu Tao','Jean','Kaeya','Keqing','Klee','Lisa','Mona','Ningguang','Noelle',
+         'Qiqi','Razor','Sucrose','Tartaglia', 'Traveler (Anemo)', 'Traveler (Geo)','Venti',
+         'Xiangling','Xiao','Xingqiu','Xinyan','Yanfei','Zhongli']
 
-chars2 = ['Albedo','Amber','Barbara','Beidou_4','Bennett','Chongyun','Diluc','Diona','Fischl_3','Ganyu','Hu_Tao','Jean','Kaeya','Keqing_3','Klee','Lisa_2','Mona','Ningguang','Noelle','Qiqi','Razor_3','Sucrose','Tartaglia', 'Traveler_Anemo', 'Traveler_Geo','Venti','Xiangling','Xiao','Xingqiu','Xinyan','Yanfei','Zhongli']
+chars2 = ['Albedo','Amber','Barbara','Beidou_4','Bennett','Chongyun','Diluc','Diona','Fischl_3',
+          'Ganyu','Hu_Tao','Jean','Kaeya','Keqing_3','Klee','Lisa_2','Mona','Ningguang','Noelle',
+          'Qiqi','Razor_3','Sucrose','Tartaglia', 'Traveler_Anemo', 'Traveler_Geo','Venti',
+          'Xiangling','Xiao','Xingqiu','Xinyan','Yanfei','Zhongli']
 
 
 app = QtWidgets.QApplication([])
