@@ -9,6 +9,7 @@ def char_info(tela,e):
     conn = sqlite3.connect('db/genshin.db')
     c = conn.cursor()
     dado = c.execute(f"SELECT * FROM chars WHERE name = '{e}';").fetchall()
+    print(dado)
 
     if dado[0][2] == 'Anemo': tela.lb_element.setPixmap(QtGui.QPixmap('img/elements/Element_Anemo.png'))
     if dado[0][2] == 'Cryo': tela.lb_element.setPixmap(QtGui.QPixmap('img/elements/Element_Cryo.png'))
@@ -26,6 +27,7 @@ def char_info(tela,e):
     if dado[0][1] == 'Chongyun': tela.lb_background.setPixmap(QtGui.QPixmap('img/background/bg_chongyun.png'))
     if dado[0][1] == 'Diluc': tela.lb_background.setPixmap(QtGui.QPixmap('img/background/bg_diluc.png'))
     if dado[0][1] == 'Diona': tela.lb_background.setPixmap(QtGui.QPixmap('img/background/bg_diona.png'))
+    if dado[0][1] == 'Eula': tela.lb_background.setPixmap(QtGui.QPixmap('img/background/bg_eula.png'))
     if dado[0][1] == 'Fischl': tela.lb_background.setPixmap(QtGui.QPixmap('img/background/bg_fischl.png'))
     if dado[0][1] == 'Ganyu': tela.lb_background.setPixmap(QtGui.QPixmap('img/background/bg_ganyu.png'))
     if dado[0][1] == 'Hu Tao': tela.lb_background.setPixmap(QtGui.QPixmap('img/background/bg_hu_tao.png'))
@@ -159,6 +161,7 @@ def char_info(tela,e):
     if dado[0][6] == 105: tela.lb_weapon_dps.setPixmap(QtGui.QPixmap('img/weapons/White_Tassel.png'))
     if dado[0][6] == 106: tela.lb_weapon_dps.setPixmap(QtGui.QPixmap('img/weapons/Wine_and_Song.png'))
     if dado[0][6] == 107: tela.lb_weapon_dps.setPixmap(QtGui.QPixmap('img/weapons/Wolfs_Gravestone.png'))
+    if dado[0][6] == 108: tela.lb_weapon_dps.setPixmap(QtGui.QPixmap('img/weapons/Song_of_Broken_Pines.png'))
 
     if dado[0][7] == None: tela.lb_weapon_dps_or.setPixmap(QtGui.QPixmap('img/error.png'))
     if dado[0][7] == 1: tela.lb_weapon_dps_or.setPixmap(QtGui.QPixmap('img/weapons/Alley_Hunter.png'))
@@ -268,6 +271,7 @@ def char_info(tela,e):
     if dado[0][7] == 105: tela.lb_weapon_dps_or.setPixmap(QtGui.QPixmap('img/weapons/White_Tassel.png'))
     if dado[0][7] == 106: tela.lb_weapon_dps_or.setPixmap(QtGui.QPixmap('img/weapons/Wine_and_Song.png'))
     if dado[0][7] == 107: tela.lb_weapon_dps_or.setPixmap(QtGui.QPixmap('img/weapons/Wolfs_Gravestone.png'))
+    if dado[0][7] == 108: tela.lb_weapon_dps_or.setPixmap(QtGui.QPixmap('img/weapons/Song_of_Broken_Pines.png'))
 
     if dado[0][8] == None: tela.lb_weapon_dps_2.setPixmap(QtGui.QPixmap('img/error.png'))
     if dado[0][8] == 1: tela.lb_weapon_dps_2.setPixmap(QtGui.QPixmap('img/weapons/Alley_Hunter.png'))
@@ -377,6 +381,7 @@ def char_info(tela,e):
     if dado[0][8] == 105: tela.lb_weapon_dps_2.setPixmap(QtGui.QPixmap('img/weapons/White_Tassel.png'))
     if dado[0][8] == 106: tela.lb_weapon_dps_2.setPixmap(QtGui.QPixmap('img/weapons/Wine_and_Song.png'))
     if dado[0][8] == 107: tela.lb_weapon_dps_2.setPixmap(QtGui.QPixmap('img/weapons/Wolfs_Gravestone.png'))
+    if dado[0][8] == 108: tela.lb_weapon_dps_2.setPixmap(QtGui.QPixmap('img/weapons/Song_of_Broken_Pines.png'))
 
     if dado[0][9] == None: tela.lb_weapon_dps_or_2.setPixmap(QtGui.QPixmap('img/error.png'))
     if dado[0][9] == 1: tela.lb_weapon_dps_or_2.setPixmap(QtGui.QPixmap('img/weapons/Alley_Hunter.png'))
@@ -486,6 +491,7 @@ def char_info(tela,e):
     if dado[0][9] == 105: tela.lb_weapon_dps_or_2.setPixmap(QtGui.QPixmap('img/weapons/White_Tassel.png'))
     if dado[0][9] == 106: tela.lb_weapon_dps_or_2.setPixmap(QtGui.QPixmap('img/weapons/Wine_and_Song.png'))
     if dado[0][9] == 107: tela.lb_weapon_dps_or_2.setPixmap(QtGui.QPixmap('img/weapons/Wolfs_Gravestone.png'))
+    if dado[0][9] == 108: tela.lb_weapon_dps_or_2.setPixmap(QtGui.QPixmap('img/weapons/Song_of_Broken_Pines.png'))
 
     if dado[0][10] == None: tela.lb_artifact_dps_1.setPixmap(QtGui.QPixmap('img/error.png'))
     if dado[0][10] == 1: tela.lb_artifact_dps_1.setPixmap(QtGui.QPixmap('img/artifact/adventurer.png'))
@@ -515,6 +521,7 @@ def char_info(tela,e):
     if dado[0][10] == 25: tela.lb_artifact_dps_1.setPixmap(QtGui.QPixmap('img/artifact/traveling_doctor.png'))
     if dado[0][10] == 26: tela.lb_artifact_dps_1.setPixmap(QtGui.QPixmap('img/artifact/viridescent_venerer.png'))
     if dado[0][10] == 27: tela.lb_artifact_dps_1.setPixmap(QtGui.QPixmap('img/artifact/wanderers_troupe.png'))
+    if dado[0][10] == 28: tela.lb_artifact_dps_1.setPixmap(QtGui.QPixmap('img/artifact/pale_flame.png'))
 
     if dado[0][11] == None: tela.lb_artifact_dps_2.setPixmap(QtGui.QPixmap('img/error.png'))
     if dado[0][11] == 1: tela.lb_artifact_dps_2.setPixmap(QtGui.QPixmap('img/artifact/adventurer.png'))
@@ -544,6 +551,7 @@ def char_info(tela,e):
     if dado[0][11] == 25: tela.lb_artifact_dps_2.setPixmap(QtGui.QPixmap('img/artifact/traveling_doctor.png'))
     if dado[0][11] == 26: tela.lb_artifact_dps_2.setPixmap(QtGui.QPixmap('img/artifact/viridescent_venerer.png'))
     if dado[0][11] == 27: tela.lb_artifact_dps_2.setPixmap(QtGui.QPixmap('img/artifact/wanderers_troupe.png'))
+    if dado[0][11] == 28: tela.lb_artifact_dps_2.setPixmap(QtGui.QPixmap('img/artifact/pale_flame.png'))
 
     if dado[0][12] == None: tela.lb_artifact_dps_1_or.setPixmap(QtGui.QPixmap('img/error.png'))
     if dado[0][12] == 1: tela.lb_artifact_dps_1_or.setPixmap(QtGui.QPixmap('img/artifact/adventurer.png'))
@@ -573,6 +581,7 @@ def char_info(tela,e):
     if dado[0][12] == 25: tela.lb_artifact_dps_1_or.setPixmap(QtGui.QPixmap('img/artifact/traveling_doctor.png'))
     if dado[0][12] == 26: tela.lb_artifact_dps_1_or.setPixmap(QtGui.QPixmap('img/artifact/viridescent_venerer.png'))
     if dado[0][12] == 27: tela.lb_artifact_dps_1_or.setPixmap(QtGui.QPixmap('img/artifact/wanderers_troupe.png'))
+    if dado[0][12] == 28: tela.lb_artifact_dps_1_or.setPixmap(QtGui.QPixmap('img/artifact/pale_flame.png'))
 
     if dado[0][13] == None: tela.lb_artifact_dps_2_or.setPixmap(QtGui.QPixmap('img/error.png'))
     if dado[0][13] == 1: tela.lb_artifact_dps_2_or.setPixmap(QtGui.QPixmap('img/artifact/adventurer.png'))
@@ -602,6 +611,7 @@ def char_info(tela,e):
     if dado[0][13] == 25: tela.lb_artifact_dps_2_or.setPixmap(QtGui.QPixmap('img/artifact/traveling_doctor.png'))
     if dado[0][13] == 26: tela.lb_artifact_dps_2_or.setPixmap(QtGui.QPixmap('img/artifact/viridescent_venerer.png'))
     if dado[0][13] == 27: tela.lb_artifact_dps_2_or.setPixmap(QtGui.QPixmap('img/artifact/wanderers_troupe.png'))
+    if dado[0][13] == 28: tela.lb_artifact_dps_2_or.setPixmap(QtGui.QPixmap('img/artifact/pale_flame.png'))
 
     if dado[0][14] == None: tela.lb_artifact_sup_1.setPixmap(QtGui.QPixmap('img/error.png'))
     if dado[0][14] == 1: tela.lb_artifact_sup_1.setPixmap(QtGui.QPixmap('img/artifact/adventurer.png'))
@@ -631,6 +641,7 @@ def char_info(tela,e):
     if dado[0][14] == 25: tela.lb_artifact_sup_1.setPixmap(QtGui.QPixmap('img/artifact/traveling_doctor.png'))
     if dado[0][14] == 26: tela.lb_artifact_sup_1.setPixmap(QtGui.QPixmap('img/artifact/viridescent_venerer.png'))
     if dado[0][14] == 27: tela.lb_artifact_sup_1.setPixmap(QtGui.QPixmap('img/artifact/wanderers_troupe.png'))
+    if dado[0][14] == 28: tela.lb_artifact_sup_1.setPixmap(QtGui.QPixmap('img/artifact/pale_flame.png'))
 
     if dado[0][15] == None: tela.lb_artifact_sup_2.setPixmap(QtGui.QPixmap('img/error.png'))
     if dado[0][15] == 1: tela.lb_artifact_sup_2.setPixmap(QtGui.QPixmap('img/artifact/adventurer.png'))
@@ -660,6 +671,7 @@ def char_info(tela,e):
     if dado[0][15] == 25: tela.lb_artifact_sup_2.setPixmap(QtGui.QPixmap('img/artifact/traveling_doctor.png'))
     if dado[0][15] == 26: tela.lb_artifact_sup_2.setPixmap(QtGui.QPixmap('img/artifact/viridescent_venerer.png'))
     if dado[0][15] == 27: tela.lb_artifact_sup_2.setPixmap(QtGui.QPixmap('img/artifact/wanderers_troupe.png'))
+    if dado[0][15] == 28: tela.lb_artifact_sup_2.setPixmap(QtGui.QPixmap('img/artifact/pale_flame.png'))
 
     if dado[0][16] == None: tela.lb_artifact_sup_1_or.setPixmap(QtGui.QPixmap('img/error.png'))
     if dado[0][16] == 1: tela.lb_artifact_sup_1_or.setPixmap(QtGui.QPixmap('img/artifact/adventurer.png'))
@@ -689,6 +701,7 @@ def char_info(tela,e):
     if dado[0][16] == 25: tela.lb_artifact_sup_1_or.setPixmap(QtGui.QPixmap('img/artifact/traveling_doctor.png'))
     if dado[0][16] == 26: tela.lb_artifact_sup_1_or.setPixmap(QtGui.QPixmap('img/artifact/viridescent_venerer.png'))
     if dado[0][16] == 27: tela.lb_artifact_sup_1_or.setPixmap(QtGui.QPixmap('img/artifact/wanderers_troupe.png'))
+    if dado[0][16] == 28: tela.lb_artifact_sup_1_or.setPixmap(QtGui.QPixmap('img/artifact/pale_flame.png'))
 
     if dado[0][17] == None: tela.lb_artifact_sup_2_or.setPixmap(QtGui.QPixmap('img/error.png'))
     if dado[0][17] == 1: tela.lb_artifact_sup_2_or.setPixmap(QtGui.QPixmap('img/artifact/adventurer.png'))
@@ -718,6 +731,7 @@ def char_info(tela,e):
     if dado[0][17] == 25: tela.lb_artifact_sup_2_or.setPixmap(QtGui.QPixmap('img/artifact/traveling_doctor.png'))
     if dado[0][17] == 26: tela.lb_artifact_sup_2_or.setPixmap(QtGui.QPixmap('img/artifact/viridescent_venerer.png'))
     if dado[0][17] == 27: tela.lb_artifact_sup_2_or.setPixmap(QtGui.QPixmap('img/artifact/wanderers_troupe.png'))
+    if dado[0][17] == 28: tela.lb_artifact_sup_2_or.setPixmap(QtGui.QPixmap('img/artifact/pale_flame.png'))
 
     if dado[0][18] == 1: tela.lb_talent.setPixmap(QtGui.QPixmap('img/talent_mat/Freedom.png'))
     if dado[0][18] == 2: tela.lb_talent.setPixmap(QtGui.QPixmap('img/talent_mat/Prosperity.png'))
@@ -734,6 +748,7 @@ def char_info(tela,e):
     if dado[0][3] == 5: tela.lb_hypo.setPixmap(QtGui.QPixmap('img/hypo_mat/Hurricane_Seed.png'))
     if dado[0][3] == 6: tela.lb_hypo.setPixmap(QtGui.QPixmap('img/hypo_mat/Juvenile_Jade.png'))
     if dado[0][3] == 7: tela.lb_hypo.setPixmap(QtGui.QPixmap('img/hypo_mat/Lightning_Prism.png'))
+    if dado[0][3] == 8: tela.lb_hypo.setPixmap(QtGui.QPixmap('img/hypo_mat/Crystalline_Bloom.png'))
 
     if dado[0][4] == 1: tela.lb_nature.setPixmap(QtGui.QPixmap('img/nature_mat/Calla_Lily.png'))
     if dado[0][4] == 2: tela.lb_nature.setPixmap(QtGui.QPixmap('img/nature_mat/Cecilia.png'))
@@ -783,6 +798,8 @@ def char_info(tela,e):
     if dado[0][19] == 7: tela.lb_boss.setPixmap(QtGui.QPixmap("img/boss_mat/Tusk_of_Monoceros_Caeli.png"))
     if dado[0][19] == 8: tela.lb_boss.setPixmap(QtGui.QPixmap("img/boss_mat/Shard_of_a_Foul_Legacy.png"))
     if dado[0][19] == 9: tela.lb_boss.setPixmap(QtGui.QPixmap("img/boss_mat/Shadow_of_the_Warrior.png"))
+    if dado[0][19] == 10: tela.lb_boss.setPixmap(QtGui.QPixmap("img/boss_mat/Bloodjade_Branch.png"))
+    if dado[0][19] == 11: tela.lb_boss.setPixmap(QtGui.QPixmap("img/boss_mat/Dragon_Lord's_Crown.png"))
 
     # TEXTS
 

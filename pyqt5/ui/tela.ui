@@ -931,6 +931,7 @@ QMenu::item::selected
     </property>
     <addaction name="actionChongyun"/>
     <addaction name="actionDiona"/>
+    <addaction name="actionEula"/>
     <addaction name="actionGanyu"/>
     <addaction name="actionKaeya"/>
     <addaction name="actionQiqi"/>
@@ -1172,6 +1173,11 @@ QMenu::item::selected
   <action name="actionYanfei">
    <property name="text">
     <string> Yanfei</string>
+   </property>
+  </action>
+  <action name="actionEula">
+   <property name="text">
+    <string> Eula</string>
    </property>
   </action>
  </widget>
