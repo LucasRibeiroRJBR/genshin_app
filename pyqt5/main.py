@@ -12,7 +12,7 @@ chars2 = ['Albedo','Amber','Barbara','Beidou_4','Bennett','Chongyun','Diluc','Di
           'Qiqi','Razor_3','Sucrose','Tartaglia', 'Traveler_Anemo', 'Traveler_Geo','Venti',
           'Xiangling','Xiao','Xingqiu','Xinyan','Yanfei','Zhongli']
 
-
+# id,name,"element",id_hypos_mat,id_nature_mat,id_common_mat,id_weapon_dps,id_weapon_dps_or,id_weapon_sup,id_weapon_sup_or,id_artifact_dps_1,id_artifact_dps_2,id_artifact_dps_1_or,id_artifact_dps_2_or,id_artifact_sup_1,id_artifact_sup_2,id_artifact_sup_1_or,id_artifact_sup_2_or,id_talent_mat,id_bosss_mat
 app = QtWidgets.QApplication([])
 tela = uic.loadUi('ui/tela.ui')
 
